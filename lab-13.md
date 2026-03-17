@@ -34,7 +34,24 @@ roleD <- sample(c("engineer", "scientist", "medic"),
     replace = TRUE, 
     size = 100, prob = c(1,1,1)
 )
+
+set.seed(123)
+
+df_colonists$marsgar <- runif(100, min = 50, max = 100)
+
+ggplot(df_colonists, aes(x = age, y = marsgar)) + 
+  geom_point(colour = "orange") +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    title = "Colonist Age and Health",
+    x = "Age",
+    y = "MARSGAR"
+  )
 ```
+
+    ## `geom_smooth()` using formula = 'y ~ x'
+
+![](lab-13_files/figure-gfm/exercise-1-1.png)<!-- -->
 
 1.2: The age distribution is normal, but there is more or less skew
 depending on the seed. For example, seed 123 is more negatively skewed,

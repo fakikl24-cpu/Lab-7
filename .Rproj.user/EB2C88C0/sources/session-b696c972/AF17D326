@@ -3,7 +3,7 @@
     "path": "~/GitHub/Lab-7/lab-13.Rmd",
     "project_path": "lab-13.Rmd",
     "type": "r_markdown",
-    "hash": "2170690823",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1773719516422.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "44,513",
-        "scrollLine": "39"
+        "cursorPosition": "5,3",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1773720966,
+    "lastKnownWriteTime": 1773723009,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1773720966208,
+    "last_content_update": 1773723009985,
     "read_only": false,
     "read_only_alternatives": []
 }

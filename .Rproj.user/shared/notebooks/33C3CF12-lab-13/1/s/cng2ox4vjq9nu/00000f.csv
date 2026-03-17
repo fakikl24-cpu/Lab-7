@@ -1,0 +1,12 @@
+"0",""
+"0","set.seed(123)"
+"0",""
+"0","age <- rnorm(100, mean = 30, sd = 5)"
+"0",""
+"0","df_colonists <- data.frame("
+"0","  id = 1:100, "
+"0",") age "
+"2","Error: unexpected symbol in:
+""  id = 1:100, 
+) age""
+"
